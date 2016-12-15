@@ -14,7 +14,7 @@ if(isset($_POST['subscriber_email'])){
 <!DOCTYPE html>
 <html>
 <head>
-        <title>WiseL</title>
+        <title>WiseL: Where Learning Begins</title>
 
         <!-- HTML5 Shim and Respond.js IE9 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -91,7 +91,7 @@ if(isset($_POST['subscriber_email'])){
  
         <header id="home">        
 
-            <section id="index-banner" class="jarallax" data-jarallax='{"speed": 0.2}' style="background-color:white;">
+            <section id="index-banner" class="jarallax" data-jarallax='{"speed": 0.2}' style="background-color:white;min-height: 0px !important ;">
 
             <!-- <div class="bg-opacity-layer"></div> -->
 
@@ -114,6 +114,7 @@ if(isset($_POST['subscriber_email'])){
                         <br>
                         <br>
                         <br>
+                        <p style="color:black">Text</p>
                         <form class="form-material set-submit-input" style="text-align: left" method="post" action="<?php $_SERVER['HTTP_HOST']; ?>">
                             <div class="form-group set-submit-box">
                                 <input type="email" class="form-control" name="subscriber_email" id="subscriber_email" required="">                                            
